@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "site": "wolvystore-fd284-ed0d4",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
